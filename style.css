@@ -1,0 +1,90 @@
+.header-menu{
+    background-image: linear-gradient(to right, #43cea2 , #185a9d) !important;
+    padding: 0;
+}
+.logo-img{
+    width: 80px;
+}
+.logo-img::after{
+    content: "";
+}
+
+.ss ul li a:hover{
+    background-color: #32313128;
+}
+
+.all-di{
+    background-color: #f5f5f5;
+}
+
+.scrollspy-example {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.search-icon{
+    font-weight: 600;
+    position: absolute;
+    top: 35px;
+    left: 23px;
+}
+.hhh {
+    padding: 4px 30px;
+}
+.vvv {
+    padding: 22px;
+    background-color: #fff !important;
+}
+.video ul{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+}
+.video li{
+    text-align: center;
+}
+.video a {
+    color: #050505;
+    text-decoration: none;
+    display: block;
+}
+.bbb{
+    position: relative;
+}
+
+.aaa{
+    background-color: #44434309;
+    padding: 8px;
+    border-radius: 0%;
+}
+.aaa::after {
+    content: "";
+    position: absolute;
+    top: 41px;
+    left: 16px;
+    width: 9%;
+    height: 1.5px;
+    background-color: #43cea2;
+}
+
+.dag::after {
+    content: "";
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+}
+
+.ppp {
+    padding-top: 25px;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
